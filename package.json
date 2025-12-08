@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "nextjs-api-restful",
   "version": "1.0.0",
@@ -35,4 +36,43 @@
     "@types/jsonwebtoken": "^9.0.6",
     "ts-node": "^10.9.2"
   }
+=======
+{
+  "name": "nextjs-api-restful",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio",
+    "prisma:seed": "ts-node prisma/seed.ts"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "typescript": "^5.4.0",
+    "@prisma/client": "^5.11.0",
+    "prisma": "^5.11.0",
+    "mongoose": "^8.2.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.6",
+    "ts-node": "^10.9.2"
+  }
+ } >>>>>>> c1aed385322b99bfb2112357b3d94fcf3aa45c01
 }
